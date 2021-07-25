@@ -10,9 +10,12 @@
     <title>My Portfolio</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.12.0/devicon.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/main.css" />
     <noscript>
-        <link rel="stylesheet" href="assets/css/noscript.css" />
+
     </noscript>
 </head>
 
@@ -23,10 +26,11 @@
 
         <!-- Nav -->
         <nav id="nav">
-            <a href="#" class="icon solid fa-home"><span>Home</span></a>
+            <a href="#" class="icon solid fa-home"><span>AboutMe</span></a>
             <a href="#work" class="icon solid fa-folder"><span>Work</span></a>
-            <a href="#contact" class="icon solid fa-envelope"><span>Contact</span></a>
-            <a href="https://github.com/Dannyagg" class="icon brands fa-github"><span>My GitHub Repo</span></a>
+            <a href="#contact" class="icon solid fa-code"><span>Skills</span></a>
+
+
         </nav>
 
         <!-- Main -->
@@ -37,69 +41,95 @@
                 <header>
                     <h1>Daniel Agbenu</h1>
                     <p>Junior Web Developer</p>
-                    <p> I am a former aviation specialist transitioning to become a web
-                    developer. Currently, I am a student at DigitalCrafts training to become a full-stack web development while serving in the United States Air Force Reserves</p>
+                    <p> A former aviation specialist transitioning to become a web
+                        developer. I am currently training DigitalCrafts learning full-stack web
+                        development.</p>
+
+                    <div class="contact">
+
+                        <a href="https://www.linkedin.com/in/daniel-a-5a9294149/" title="my linkedIn"
+                            class="devicon-linkedin-plain colored"></a>
+                        <a href="https://github.com/Dannyagg" title="my gitHub"
+                            class="devicon-github-original colored"></a>
+
+                    </div>
+
                 </header>
                 <a href="#work" class="jumplink pic">
                     <span class="arrow icon solid fa-chevron-right"><span>See my work</span></span>
                     <img src="images/me.jpg" alt="" />
                 </a>
+
             </article>
 
             <!-- Work -->
             <article id="work" class="panel">
                 <header>
-                    <h4 align="center">Project Contribution </h4>
+                    <h2 align="center">Project Contributions </h2>
                 </header>
-                <p>
-                    Phasellus enim sapien, blandit ullamcorper elementum eu, condimentum eu elit.
-                    Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia
-                    luctus elit eget interdum.
-                </p>
+
                 <section>
                     <div class="row">
+
                         <div class="col-4 col-6-medium col-12-small">
-                            <h3 align="center"> SpaceX Launch Tracker</h3>
-                            <a href="https://laughing-rosalind-85b6a0.netlify.app/index.html" class="image fit"><img src="images/SpaceX launch Tracker.png" alt=""></a>
+                            <h4> Spelling Nemesis</h4>
+                            <p> A role-playing game (RPG) is emphasizes the importance of practicing diligence to code
+                                syntax and spelling when coding </p>
+
+                            <div class="projects"><a href="https://github.com/Dannyagg/python_game_project-"
+                                    title="click to explore" class="image fit"><img src="images/Nemisis.png" alt=""></a>
+                            </div>
                         </div>
+
                         <div class="col-4 col-6-medium col-12-small">
-                            <h3 align="center"> Spelling Nemesis</h3>
-                            <a href="https://github.com/Dannyagg/python_game_project-" class="image fit"><img src="images/Nemisis.png" alt=""></a>
+                            <h3> Space X Launch Tracker</h3>
+                            <p> A front-end web application to track SpaceX’s
+                                past and future space launches</p>
+                            <div class="project23"> <a href="https://laughing-rosalind-85b6a0.netlify.app/index.html"
+                                    title="click to explore" class="image fit"><img
+                                        src="images/SpaceX launch Tracker.png" alt=""></a> </div>
                         </div>
+
                         <div class="col-4 col-6-medium col-12-small">
-                            <h3 align="center"> Travel Planner</h3>
-                            <a href="https://github.com/Dannyagg/Back_End_Project" class="image fit"><img src="images/pic03.jpg" alt=""></a>
+                            <h3> Travel Planner</h3>
+                            <p> A back-end web application that allows users to plan and create travel itineraries</p>
+                            <div class="project23"> <a href="https://github.com/Dannyagg/Back_End_Project"
+                                    title="click to explore" class="image fit"><img src="images/chris-lawton-K.jpg"
+                                        alt=""></a></div>
                         </div>
                     </div>
                 </section>
             </article>
 
+
             <!-- Contact -->
             <article id="contact" class="panel">
                 <header>
-                    <h2>Contact Me</h2>
-                </header>
-                <form action="#" method="post">
-                    <div>
-                        <div class="row">
-                            <div class="col-6 col-12-medium">
-                                <input type="text" name="name" placeholder="Name" />
-                            </div>
-                            <div class="col-6 col-12-medium">
-                                <input type="text" name="email" placeholder="Email" />
-                            </div>
-                            <div class="col-12">
-                                <input type="text" name="subject" placeholder="Subject" />
-                            </div>
-                            <div class="col-12">
-                                <textarea name="message" placeholder="Message" rows="6"></textarea>
-                            </div>
-                            <div class="col-12">
-                                <input type="submit" value="Send Message" />
-                            </div>
-                        </div>
+                    <h2 align="center">Web Development skills</h2>
+
+                    <div class="skill-set">
+
+                        <i class="devicon-html5-plain-wordmark colored"></i>
+                        <i class="devicon-css3-plain-wordmark colored"></i>
+                        <i class="devicon-git-plain-wordmark colored"></i>
+                        <i class="devicon-python-plain-wordmark colored"></i>
+                        <i class="devicon-nodejs-plain colored"></i>
+                        <i class="devicon-react-original-wordmark colored"></i>
+                        <i class="devicon-bootstrap-plain-wordmark colored"></i>
+                        <i class="devicon-postgresql-plain-wordmark colored"></i>
+                        <i class="devicon-javascript-plain colored"></i>
+                        <i class="devicon-sequelize-plain-wordmark colored"></i>
+                        <i class="devicon-express-original-wordmark colored"></i>
+                       
                     </div>
-                </form>
+                    <div class="resume">
+                        <a href="./assets/Resume/Daniel Agbenu Resume .pdf" download>
+                            <button>Download My Resume</button>
+                        </a>
+                    
+                    </div>
+                </header>
+
             </article>
 
         </div>
