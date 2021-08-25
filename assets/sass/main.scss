@@ -47,7 +47,7 @@
 
 	article, aside, details, figcaption, figure,
 	footer, header, hgroup, menu, nav, section {
-		display: block;
+		display: flex;
 	}
 
 	body {
@@ -93,6 +93,12 @@
 		-ms-appearance: none;
 		appearance: none;
 	}
+
+
+
+
+
+
 
 /* Row */
 

@@ -2361,7 +2361,7 @@ body.is-preload #wrapper {
 	margin-top: 20px;
 }
 
-.projects {
+/* .projects {
 	display: flex;
 	flex: 1;
 	border: 1px solid orangered;
@@ -2405,7 +2405,7 @@ body.is-preload #wrapper {
 	opacity: .5;
 	box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
 	border-radius: 3px;
-}
+} */
 
 
 .contact {
@@ -2441,4 +2441,17 @@ background-color:rgb(76, 61, 160);
 border-radius: 20px;
 box-shadow: 0 3px 10px rgb(0 0 0 / 0.6);
 padding: 15px;
+}
+
+.work-div {
+	display:flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	border: 1px solid red;
+}
+.work-div img { 
+	width:500px;
+	/* height:300px; */
+	
+	
 }
